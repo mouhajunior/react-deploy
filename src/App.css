@@ -1,0 +1,195 @@
+
+
+.header {
+  background-image: url(./assets/BackgroundBlue.png);
+  padding: 20px;
+  height: 770px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  
+  
+}
+.five-component{
+  background-image: url(./assets/Backgroundfooter.png);
+  height: 770px;
+}
+
+.header-content {
+  height: 50px;
+  align-items: center;
+ 
+
+ 
+}
+
+.card-component {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-content {
+  flex: 1;
+}
+
+.right-content {
+  flex: 1;
+  text-align: right;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.button1{
+  float: right;
+  background-color: orangered;
+
+}
+
+.button2{
+  margin-bottom: 20px;
+}
+
+
+
+.second-component {
+  margin: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer{
+  height: 600px;
+  width: 108%;
+  padding: 20px;
+  align-items: left;
+  background-size: cover;
+  
+}
+
+.custom{
+ 
+    color: white;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+  
+}
+
+
+@media (min-width:425px) and (max-width:767px) {
+ 
+  
+  .screens{
+    width: 95%;
+    margin-top: 15%;
+  }
+  .scard{
+    text-align: center;
+  }
+  .coverhaut{
+    width: 30%;
+    justify-content: center;
+    height: 298px;
+  }
+  .circleh{
+    position: absolute;
+    top: 100%;
+  
+    width: 0%;
+  }
+  .backh{
+    position: absolute;
+    top: 100%;
+  
+    width: 0%;
+  }
+
+  .imfo{
+    width: 20px;
+    height: 200px;
+  }
+
+.five-component{
+  height: 800px;
+}
+  
+}
+
+@media (min-width:375px) and (max-width:424px) {
+  .header{
+    width: 104%;
+  }
+
+  .screens{
+    width: 95%;
+    margin-top: 10%;
+  }
+  .circleh{
+    width: 0px;
+  }
+  .backh{
+    width: 0px;
+  }
+  .five-component{
+    height: 820px;
+  }
+
+  .scard{
+    text-align: center;
+  }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+  .circleh{
+    width: 0px;
+  }
+  .backh{
+    width: 0px;
+  }
+ .five-component{
+  height: 600px;
+ 
+ 
+ }
+}
+
+@media (min-width:320px) and (max-width:374px) {
+  .header{
+    width: 104%;
+  }
+
+  .screens{
+    width: 95%;
+    margin-top: 20%;
+  }
+  .circleh{
+    width: 0px;
+  }
+  .backh{
+    width: 0px;
+  }
+  .five-component{
+    height: 820px;
+    width: 104%;
+  }
+  .coverhaut{
+    height: 200px;
+  }
+
+  .scard{
+    text-align: center;
+  }
+
+  
+
+}
